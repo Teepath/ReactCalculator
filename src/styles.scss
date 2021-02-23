@@ -1,0 +1,127 @@
+$bgcolor: lightblue;
+$textcolor: darkblue;
+$fontsize: 18px;
+$width: 195px;
+$borderLeft: none;
+$borderRight: none;
+$borderTop: none;
+$height: 50px;
+$display: flex;
+$mainWidth: 200px;
+$mainHeight: 255px;
+$mainBorder: 0.5rem solid black;
+
+$btnWidth: 50px;
+$btnHeight: 50px;
+
+#app {
+  margin: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  width: $mainWidth;
+  height: $mainHeight;
+  border: $mainBorder;
+  border-radius: 5px;
+}
+
+.output {
+  width: $width;
+  height: $height;
+  border-left: $borderLeft;
+  border-right: $borderRight;
+  border-top: $borderTop;
+  display: flex;
+  justify-content: flex-end;
+  background-color: $bgcolor;
+  color: #ffff;
+  font-weight: bold;
+  font-size: 2em;
+  align-items: center;
+  padding: 0.08em;
+}
+
+.digit-0 {
+  width: $btnWidth;
+  height: $btnHeight;
+  :hover {
+    background-color: $textcolor;
+  }
+}
+.digit-1 {
+  width: $btnWidth;
+  height: $btnHeight;
+}
+
+.digit-2 {
+  width: $btnWidth;
+  height: $btnHeight;
+}
+
+.digit-3 {
+  width: $btnWidth;
+  height: $btnHeight;
+}
+.digit-4 {
+  width: $btnWidth;
+  height: $btnHeight;
+}
+
+.digit-5 {
+  width: $btnWidth;
+  height: $btnHeight;
+}
+
+.digit-6 {
+  width: $btnWidth;
+  height: $btnHeight;
+}
+
+.digit-7 {
+  width: $btnWidth;
+  height: $btnHeight;
+}
+.digit-8 {
+  width: $btnWidth;
+  height: $btnHeight;
+}
+.digit-9 {
+  width: $btnWidth;
+  height: $btnHeight;
+}
+.op-add {
+  width: $btnWidth;
+  height: $btnHeight;
+}
+
+.op-sub {
+  width: $btnWidth;
+  height: $btnHeight;
+}
+.op-mul {
+  width: $btnWidth;
+  height: $btnHeight;
+}
+.op-div {
+  width: $btnWidth;
+  height: $btnHeight;
+}
+.eq {
+  width: $btnWidth;
+  height: $btnHeight;
+}
+
+.clear {
+  width: $btnWidth;
+  height: $btnHeight;
+}
+
+.layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+}
